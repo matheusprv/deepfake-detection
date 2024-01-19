@@ -8,3 +8,5 @@ Originally, the dataset specified fake videos to contain 25 frames and real ones
 
 Challenges arose when attempting to train the model with varying video sizes. To overcome this obstacle, a solution emerged: breaking down real videos into 6 distinct clips, each containing 24 frames. This modification now enables seamless training processes.
 
+Prepare dataset:
+Before training, it is necessary to split de data into train, validation and test, and it was made using a proportion of 75/15/10, respectivly
